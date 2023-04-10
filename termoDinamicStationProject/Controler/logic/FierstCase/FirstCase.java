@@ -3,9 +3,9 @@ package Controler.logic.FierstCase;
 import Controler.logic.Base.IEquation;
 
 public class FirstCase implements IEquation {
-    private Object[] attributes;
+    private Object attributes;
 
-    public FirstCase(Object[] attributes) {
+    public FirstCase(Object attributes) {
         this.attributes = attributes;
     }
 
