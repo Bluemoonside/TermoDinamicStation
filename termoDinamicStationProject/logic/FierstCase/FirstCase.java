@@ -1,16 +1,16 @@
 package logic.FierstCase;
 
-import logic.Base.IEcuation;
+import logic.Base.IEquation;
 
-public class FirstCase implements IEcuation {
-    private IEcuation ecuation;
+public class FirstCase implements IEquation {
+    private Object[] attributes;
 
-    public FirstCase(IEcuation ecuation) {
-        this.ecuation = ecuation;
+    public FirstCase(Object[] attributes) {
+        this.attributes = attributes;
     }
 
     @Override
     public double Resolve() throws Exception {
-        return this.ecuation.Resolve();
+        return null;
     }
 }

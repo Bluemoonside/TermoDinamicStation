@@ -1,11 +1,11 @@
 package logic.StrategyPattern;
 
-import logic.Base.IEcuation;
+import logic.Base.IEquation;
 
 public class SolveEquationStrategyPattern {
-    private IEcuation specificCase;
+    private IEquation specificCase;
 
-    public SolveEquationStrategyPattern(IEcuation specificCase) {
+    public SolveEquationStrategyPattern(IEquation specificCase) {
         this.specificCase = specificCase;
     }
     public double Resolve(){

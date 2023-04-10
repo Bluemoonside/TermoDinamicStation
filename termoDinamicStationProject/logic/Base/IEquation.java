@@ -1,5 +1,7 @@
 package logic.Base;
 
-public interface IEcuation {
+import java.util.function.Function;
+
+public interface IEquation {
     public double Resolve() throws Exception;
 }
