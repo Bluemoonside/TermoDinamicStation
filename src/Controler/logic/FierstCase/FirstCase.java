@@ -10,6 +10,6 @@ public class FirstCase implements IEquation {
 
     @Override
     public double Resolve() throws Exception {
-        return null;
+        return 0;
     }
 }
