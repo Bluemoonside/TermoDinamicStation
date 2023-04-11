@@ -2,7 +2,7 @@ package view.main;
 import Controler.logic.FierstCase.*;
 import Controler.logic.StrategyPattern.SolveEquationStrategyPattern;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
         Object attributesForFirstCase = null;
