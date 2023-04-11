@@ -1,5 +1,4 @@
 package Controler.logic.FierstCase;
-
 import Controler.logic.Base.IEquation;
 
 public class FirstCase implements IEquation {
